@@ -1,0 +1,6 @@
+apiVersion: v2
+name: vote-app
+description: Helm chart for vote-app
+type: application
+version: 0.1.0
+appVersion: "0.0.1"
