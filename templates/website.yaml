@@ -1,0 +1,8 @@
+
+apiVersion: acme.com/v1
+kind: Website
+metadata:
+  name: vote-app
+image: wingcloudbot/vote-app:sha-{{ .Values.revision }}
+route: /vote
+backend: http://monadahq.com
