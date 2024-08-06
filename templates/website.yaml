@@ -5,6 +5,7 @@ metadata:
   name: vote-app
   labels:
     key: value
+    another: label
 image: wingcloudbot/vote-app:sha-{{ .Values.revision }}
 route: /vote
 backend: http://monadahq.com
